@@ -1,10 +1,12 @@
-<h3 align='center'>
+<h2 align='center'>
     Projeto de Engenharia de Software 1
-</h3>
+</h2>
 
 <h1 align='center'>
     Book Store
 </h1>
+
+# Índice
 
 * [Membros da equipe](#membros)
 * [Introdução](#introdução)
@@ -45,6 +47,7 @@ cliente vá até a loja atrás de um livro e não o encontre disponível.
 ## Requisitos funcionais
 
 ![Casos de uso](https://raw.githubusercontent.com/jailsonsf/ProjectES/master/docs/assets/CasosDeUso.jpeg)
+
 Fig.1 - Diagrama de Casos de Uso - Funcionalidades do sistema com base em usuário e funcionário.
 
 **Caso de uso:**  | Cadastrar Livro
