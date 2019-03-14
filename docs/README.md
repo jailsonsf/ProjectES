@@ -31,9 +31,7 @@ cliente vá até a loja atrás de um livro e não o encontre disponível.
 # Requisitos
 ## Elicitação dos requisitos
 
-<h3 align='center'>
-    Brainstorming
-</h3>
+### Brainstorming
 
 1. Consultar informações sobre livros
 1. Pesquisar livros de uma editora específica
@@ -46,4 +44,4 @@ cliente vá até a loja atrás de um livro e não o encontre disponível.
 
 ## Requisitos funcionais
 
-![](https://github.com/jailsonsf/ProjectES/blob/master/Doc/assets/Casos%20de%20Uso.jpeg)
+![Casos de uso](./assets/casos-de-uso.jpg)
