@@ -13,7 +13,7 @@
   * [Requisitos Funcionais](#requisitos-funcionais)
   * [Requisitos não funcionais](#requisitos-não-funcionais)
 * [Projeto](#projeto)
-  * [Projeto orientado a objetos](#projeto-orienatado-a-obejetos)
+  * [Projeto orientado a objetos](#projeto-orientado-a-objetos)
 
 # Membros
 
