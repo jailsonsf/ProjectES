@@ -36,6 +36,11 @@ public class Author {
         setNationaly(nationaly);
     }
 
+    public void setId (Integer id)
+    {
+        this.id = id;
+    }
+
     public void setNationaly(String nationaly) {
         this.nationaly = nationaly;
     }
@@ -58,5 +63,9 @@ public class Author {
 
     public String getNationaly() {
         return nationaly;
+    }
+
+    public Integer getId() {
+        return id;
     }
 }
