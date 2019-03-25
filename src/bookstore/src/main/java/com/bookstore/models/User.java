@@ -18,6 +18,8 @@ public class User extends Person {
     @OneToMany(cascade = CascadeType.ALL, mappedBy = "user")
     private List<Address> addresses;
 
+    public User() {}
+
     public User(String name, int age, Address addresses) {
         super(name, age);
         this.addresses = new ArrayList<Address>();

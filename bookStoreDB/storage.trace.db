@@ -172,3 +172,6 @@ insert into person(id, person_type, name, age, address) values(2, 'employee', 'z
 	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
 	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
 	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:49)
+2019-03-25 17:59:36 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLException: Table "ADDRESS" not found; SQL statement:
+insert into address(id, name, district, number, user_id) values(1, 'Rua x', 'Centro', 27, 3) [42102-197]

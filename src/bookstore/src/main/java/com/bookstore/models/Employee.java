@@ -18,7 +18,9 @@ public class Employee extends Person {
     @OneToMany(cascade = CascadeType.ALL, mappedBy = "employee")
     private List<Address> addresses;
 
-    public Employee(String name, int age, String address) {
+    public Employee() {}
+    
+    public Employee(String name, int age, Address address) {
         super(name, age);
         this.addresses = new ArrayList<Address>();
     }

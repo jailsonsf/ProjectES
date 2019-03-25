@@ -19,6 +19,8 @@ public class Author extends Person {
     @OneToMany(cascade = CascadeType.ALL, mappedBy = "author")
     private List<Book> books;
 
+    public Author() {}
+
     public Author(String name, int age, String nationaly) {
         super(name, age);
         setNationaly(nationaly);

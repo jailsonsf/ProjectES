@@ -9,6 +9,8 @@ import javax.persistence.GenerationType;
 import javax.persistence.Id;
 import javax.persistence.OneToMany;
 
+import com.fasterxml.jackson.annotation.JsonManagedReference;
+
 @Entity
 public class BookPublisher {
 
@@ -19,6 +21,7 @@ public class BookPublisher {
     private String name;
     private String cnpj;
 
+    @JsonManagedReference
     @OneToMany(cascade = CascadeType.ALL, mappedBy = "bookPublisher")
     private List<Book> books;
 
