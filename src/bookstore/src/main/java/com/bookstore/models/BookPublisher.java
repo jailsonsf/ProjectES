@@ -22,9 +22,6 @@ public class BookPublisher {
     @OneToMany(cascade = CascadeType.ALL, mappedBy = "bookPublisher")
     private List<Book> books;
 
-    @OneToMany(cascade = CascadeType.ALL, mappedBy = "bookPublisher")
-    private List<Employee> employees;
-
     public BookPublisher() {
 
     }

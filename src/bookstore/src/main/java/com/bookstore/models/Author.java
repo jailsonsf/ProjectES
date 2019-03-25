@@ -3,20 +3,15 @@ package com.bookstore.models;
 import java.util.List;
 
 import javax.persistence.CascadeType;
+import javax.persistence.DiscriminatorValue;
 import javax.persistence.Entity;
-import javax.persistence.GeneratedValue;
-import javax.persistence.GenerationType;
-import javax.persistence.Id;
 import javax.persistence.OneToMany;
 
 import com.fasterxml.jackson.annotation.JsonManagedReference;
 
 @Entity
+@DiscriminatorValue("author")
 public class Author extends Person {
-
-    @Id
-    @GeneratedValue(strategy = GenerationType.IDENTITY)
-    private Integer id;
 
     private String nationaly;
 
@@ -29,9 +24,8 @@ public class Author extends Person {
         setNationaly(nationaly);
     }
 
-    public void setId (Integer id)
-    {
-        this.id = id;
+    public void setId (Integer id) {
+        super.setId(id);;
     }
 
     public void setNationaly(String nationaly) {
@@ -43,6 +37,6 @@ public class Author extends Person {
     }
 
     public Integer getId() {
-        return id;
+        return super.getId();
     }
 }
