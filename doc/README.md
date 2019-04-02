@@ -46,7 +46,9 @@ cliente vá até a loja atrás de um livro e não o encontre disponível.
 
 ## Requisitos funcionais
 
-![Casos de uso](https://raw.githubusercontent.com/jailsonsf/ProjectES/master/doc/CasosDeUso.jpeg)
+<p align="center">
+    <img src="./CasosDeUso.jpeg" alt="Casos de Uso"/>
+</p>
 
 Fig.1 - Diagrama de Casos de Uso - Funcionalidades do sistema com base em usuário e funcionário.
 
@@ -140,19 +142,25 @@ aguardar até que o livro escolhido inicialmente esteja disponível
 # Projeto
 ## Projeto orientado a objetos
 
-![Diagrama de Classes](https://raw.githubusercontent.com/jailsonsf/ProjectES/master/doc/DiagramaDeClasses.jpeg)
+<p align="center">
+    <img src="./DiagramaDeClasses.jpeg" alt="Diagrama de Classes"/>
+</p>
 
 Fig. 2 – Diagrama de Classes
 
 No diagrama de classes da Fig. 2 podemos ver as classes existentes no sistema, herança e relacionamentos presentes: O usuário pode consultar as informações sobre livros, editoras e autores.
 
-![Diagrama de Sequência](https://raw.githubusercontent.com/jailsonsf/ProjectES/master/doc/DiagramaDeSequencia.jpeg)
+<p align="center">
+    <img src="./DiagramaDeSequencia.jpeg" alt="Diagrama de Sequência"/>
+</p>
 
 Fig. 3 – Diagrama de Sequência
 
 No diagrama de sequência da Fig. 3 podemos ver o processo presente em uma pesquisa do usuário para buscar um determinado livro, chamando o método consultarLivro() é verificado se o livro que está sendo buscado existe, se sim será retornado ao usuário as informações existentes para o respectivo livro.
 
-![Diagrama de Estado](https://raw.githubusercontent.com/jailsonsf/ProjectES/master/doc/DiagramaEstado.jpeg)
+<p align="center">
+    <img src="./DiagramaEstado.jpeg" alt="Diagrama de Estado"/>
+</p>
 
 Fig. 4 – Diagrama de Estado
 
