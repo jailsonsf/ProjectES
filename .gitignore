@@ -1,6 +1,8 @@
 # VS code
 .vscode/*
 
+bookStoreDB/
+
 # Compiled class file
 *.class
 
