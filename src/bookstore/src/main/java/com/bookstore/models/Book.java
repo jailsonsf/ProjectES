@@ -4,8 +4,6 @@ import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
 import javax.persistence.GenerationType;
 import javax.persistence.Id;
-import javax.persistence.JoinColumn;
-import javax.persistence.ManyToOne;
 
 @Entity
 public class Book {
@@ -16,14 +14,6 @@ public class Book {
 
     private String title;
     private String description;
-
-    @ManyToOne(optional = true)
-    @JoinColumn(name = "author_id")
-    private Author author;
-
-    @ManyToOne(optional = true)
-    @JoinColumn(name = "bookpublisher_id")
-    private BookPublisher bookPublisher;
 
     public Book() {
     }

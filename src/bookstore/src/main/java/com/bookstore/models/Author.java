@@ -1,23 +1,13 @@
 package com.bookstore.models;
 
-import java.util.List;
-
-import javax.persistence.CascadeType;
 import javax.persistence.DiscriminatorValue;
 import javax.persistence.Entity;
-import javax.persistence.OneToMany;
-
-import com.fasterxml.jackson.annotation.JsonManagedReference;
 
 @Entity
 @DiscriminatorValue("author")
 public class Author extends Person {
 
     private String nationaly;
-
-    @JsonManagedReference
-    @OneToMany(cascade = CascadeType.ALL, mappedBy = "author")
-    private List<Book> books;
 
     public Author() {}
 
